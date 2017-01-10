@@ -17,6 +17,10 @@
 
             document.addEventListener("deviceready", phonegapReady, false);
 
+            function bar(){
+                   navigator.notification.alert("welcome", null, "Trying", "done");
+            }
         </script>
     </body>
+    <input type="button" onclick="bar()" value="Try" >
 </html>
